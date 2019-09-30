@@ -34,7 +34,7 @@ class ProjectsController extends Controller
 
        // $projects = Project::where('owner_id' , auth()->id())->get(); //select * from projects where owner_id=4
 
-        //test de commit
+
         return view('projects.index', compact('projects'));
     }
 
